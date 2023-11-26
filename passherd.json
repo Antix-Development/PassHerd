@@ -1,0 +1,145 @@
+{
+  "fontSize": 0,
+  "fontSizes": [
+    "1.6",
+    "2.0",
+    "2.4"
+  ],
+  "useDarkTheme": true,
+  "darkColors": [
+    {
+      "name": "--text-light-color",
+      "value": "#e3e3e3"
+    },
+    {
+      "name": "--text-dark-color",
+      "value": "#1f1f1f"
+    },
+    {
+      "name": "--anchor-text-color",
+      "value": "#a8c7fa"
+    },
+    {
+      "name": "--anchor-text-light-color",
+      "value": "#d3e3fd"
+    },
+    {
+      "name": "--background-color",
+      "value": "#1f1f1f"
+    },
+    {
+      "name": "--background-bright-color",
+      "value": "#292929"
+    },
+    {
+      "name": "--surface-color",
+      "value": "#2d2f31"
+    },
+    {
+      "name": "--surface-bright-color",
+      "value": "#383b3c"
+    },
+    {
+      "name": "--primary-color",
+      "value": "#004a77"
+    },
+    {
+      "name": "--primary-bright-color",
+      "value": "#0f547d"
+    },
+    {
+      "name": "--secondary-color",
+      "value": "#107700"
+    },
+    {
+      "name": "--secondary-bright-color",
+      "value": "#1e7d0f"
+    },
+    {
+      "name": "--error-color",
+      "value": "#dd6677"
+    },
+    {
+      "name": "--scroll-bar-color",
+      "value": "#7b7c7e"
+    },
+    {
+      "name": "--elevation",
+      "value": "#007c7e"
+    },
+    {
+      "name": "--elevation",
+      "value": "#ffffff88"
+    },
+    {
+      "name": "--border-light-color",
+      "value": "#ffffff33"
+    }
+  ],
+  "lightColors": [
+    {
+      "name": "--text-light-color",
+      "value": "#1f1f1f"
+    },
+    {
+      "name": "--text-dark-color",
+      "value": "#e3e3e3"
+    },
+    {
+      "name": "--anchor-text-color",
+      "value": "#0b57d0"
+    },
+    {
+      "name": "--anchor-text-light-color",
+      "value": "#041e49"
+    },
+    {
+      "name": "--background-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--background-bright-color",
+      "value": "#e5e9ed"
+    },
+    {
+      "name": "--surface-color",
+      "value": "#f3f6fc"
+    },
+    {
+      "name": "--surface-bright-color",
+      "value": "#b8dbf0"
+    },
+    {
+      "name": "--primary-color",
+      "value": "#92d7ff"
+    },
+    {
+      "name": "--primary-bright-color",
+      "value": "#c2e7ff"
+    },
+    {
+      "name": "--secondary-color",
+      "value": "#caffc2"
+    },
+    {
+      "name": "--secondary-bright-color",
+      "value": "#e5ede5"
+    },
+    {
+      "name": "--error-color",
+      "value": "#bb0000"
+    },
+    {
+      "name": "--scroll-bar-color",
+      "value": "#cdcdcd"
+    },
+    {
+      "name": "--elevation",
+      "value": "#ffffff88"
+    },
+    {
+      "name": "--border-light-color",
+      "value": "#00000033"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+﻿
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  user-select: none;
+  color: var(--text-light-color);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-light-color);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-size: var(--font-size);
+  list-style-type: none;
+}
+
+.container {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 300px 4px 1fr; 
+  grid-template-rows: 44px 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "toolbar toolbar toolbar"
+    "listview resizebar detailsview"; 
+  width: 100vw;
+  height: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column; 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.toolbar {
+  grid-area: toolbar;
+  border-bottom: 2px solid var(--frame-color);
+  padding: .2rem;
+}
+
+.resizebar {
+  grid-area: resizebar;
+  border-left: 2px solid var(--frame-color);
+  cursor: ew-resize;
+}
+
+.listview {
+  grid-area: listview;
+  padding: .6rem;
+  padding-right: .2rem;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.detailsview {
+  grid-area: detailsview;
+  padding: .6rem;
+  padding-left: 0;
+}
+
+.v-bar {
+  vertical-align:super;
+  height: 2.4rem;
+  display: inline-block;
+  border: 2px solid var(--frame-color);
+}
+
+.svg-button {
+  border-radius: 18px;
+  border: 6px solid var(--background-color);
+  background-color: var(--background-color);
+  width: 3.6rem;
+}
+
+.svg-button:hover {
+  border: 6px solid var(--background-bright-color);
+  background-color: var(--background-bright-color);
+  cursor: pointer;
+}
+
+.svg-button:active {
+  scale: .9;
+}
+
+.round {
+  border-radius: 1.8rem;
+}
+
+.right {
+  float: right;
+}
+
+input, button, textarea, ul {
+  font-size: var(--font-size);
+  border: 1px solid var(--border-light-color);
+  border-radius: .5rem;
+  padding: .2rem;
+  background-color: var(--background-bright-color);
+  box-sizing: border-box;
+}
+
+ul {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+input:focus, textarea:focus, ul:focus {
+  border: 1px solid var(--primary-color);
+}
+
+textarea {
+  resize: none;
+  height: 100%;
+}
+
+button {
+  margin-left: .4rem;
+  padding: 0 1.2rem;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+button:hover {
+  background-color: var(--primary-bright-color);
+}
+button:active {
+  scale: .95;
+}
+
+input {
+  width: 100%;
+}
+
+li {
+  border-radius: .3rem;
+  padding: 0 .4rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+li:hover {
+  background-color: var(--elevation);
+}
+
+.selected {
+  background-color: var(--primary-color);
+}
+
+li.selected:hover {
+  background-color: var(--primary-bright-color);
+
+}
+
+.vignette {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000c;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dialog {
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--frame-color);
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+#dialog_container {
+  text-align: left;
+  max-width: 40%;
+}
+
+#dialog_body {
+  padding: 1rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.dropdown {
+  position: absolute;
+  border: 1px solid var(--border-light-color);
+  border-radius: .5rem;
+  padding: .2rem;
+  background-color: var(--background-bright-color);
+  overflow: hidden;
+  box-shadow: 3px 3px 4px 4px #0003;
+}
+
+#context_menu > ul {
+  overflow: hidden;
+}
+
+.half-width {
+  width: 50%;
+  margin: 4px 2px;
+  padding: .5rem 2rem;
+}
+
+.dropdown > li > span {
+  float: right;
+}
+
+.password {
+  -webkit-text-security: disc;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.error {
+  color: var(--error-color);
+}
+
+#notification {
+  z-index: 10;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+
+  border: 1px solid var(--border-light-color);
+  border-radius: .5rem;
+  padding: 1rem 2rem;
+  background-color: var(--background-bright-color);
+  overflow: hidden;
+  box-shadow: 3px 3px 4px 4px #0003;
+
+}

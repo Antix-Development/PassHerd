@@ -1,0 +1,21 @@
+{
+  "HotReload": false,
+  "SaveOnExit": true,
+  "DevToolsOnTop": true,
+  "OpenDevTools": false,
+  "Title": "PassHerd",
+  "X": 100,
+  "Y": 100,
+  "MinimumWidth": 0,
+  "MinimumHeight": 0,
+  "MaximumWidth": 0,
+  "MaximumHeight": 0,
+  "Width": 800,
+  "Height": 480,
+  "StartInFullScreen": false,
+  "StartFrameless": false,
+  "MinimizeToTray": false,
+  "Minimized": false,
+  "CanResize": true,
+  "DelegateCloseEvent": true
+}
